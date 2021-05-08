@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <h1 id="Head">Deezer API Demo</h1>
+    <h3 id="he3">By: Mohamed Saeed<br><span style="padding-right : 20px;">ID: 16105652</span> </h3>
+    <h3 style="text-align: center; color : greenyellow">Search</h3>
+    <input type="search" id="search" name="searchbar" placeholder="Enter artist, album,...">
+    <button type="button" id="bt" onclick="getsearch()">Search</button>
+    <table id="table1"></table>
+    <script src="script.js"></script>
+</body>
+
+</html>
+
+<style>
+    * {
+        background-color: #222222;
+    }
+
+    #Head {
+        text-align: center;
+        text-decoration: underline;
+        color: greenyellow;
+    }
+
+    #Head:hover {
+        color: goldenrod;
+    }
+
+    #he3 {
+        text-align: right;
+        color: lightseagreen
+    }
+
+    #search {
+        font-family: Futura, 'Trebuchet MS', Arial, sans-serif;
+        background-color: gainsboro;
+        color: black;
+        text-align: center;
+        margin: 0 auto;
+        display: flex;
+        width: 300px;
+        height: 25px;
+    }
+
+    #bt {
+        font-family: Futura, 'Trebuchet MS', Arial, sans-serif;
+        background-color: #e7e7e7;
+        border: none;
+        color: black;
+        padding: 7px 7px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 12px;
+        margin: 0 auto;
+        display: flex;
+    }
+</style>
